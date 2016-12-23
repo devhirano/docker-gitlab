@@ -20,20 +20,19 @@ cp gitlab.rb.sample gitlab.rb
 ./start.sh
 ```
 
-NOTE : verify start.sh for using image name and version
-
 ## access gitlab web-ui 
 
-You can see the "change password" ui if reconfigure are done.  
+Acceess to the external_url in the gitlab.rb file.
+Then you can see the "change password" ui if reconfigure are done.  
 
 NOTE:  
-you have to wait until reconfigure gitlab, also take 300 sec or more  
-so you can check it with below command if anxious 
+  You have to wait until reconfigure gitlab, also take 300 sec or more.
+  So you can check logs with below command if anxious.
 
 
-## Add remote repo   
+## Adding remote repo   
 
-You have to access git using ssh.   
+You can access git using ssh if you changed ssh port.   
 
 git remote add origin ssh://git@<HOST IP>:<SSH FWD PORT>/<GITLAB REPO USER>/<GITLAB REPO NAME>   
 
