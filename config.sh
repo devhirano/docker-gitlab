@@ -5,7 +5,7 @@ NAME="gitlab"
 VERSION="latest"
 AUTHOR="devhirano"
 TIMEZONE="Asia/Tokyo"
-OPTIONS="-p 18888:80"
+OPTIONS="-p 18888:80 -p 2222:22"
 ENABLED_CACHE="false"
 
 if [ "${ENABLED_CACHE}" == "false" ]; then
