@@ -17,5 +17,5 @@ sudo docker run -tdi \
         -e TZ=${TIMEZONE} \
         --name ${NAME} \
         --hostname ${NAME} \
-        ${OPTION} \
+        ${OPTIONS} \
         ${AUTHOR}/${NAME}:${VERSION}

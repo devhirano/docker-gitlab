@@ -7,6 +7,7 @@ https://hub.docker.com/r/gitlab/gitlab-ce/
 # How to build
 
 ```
+git clone https://github.com/devhirano/docker-gitlab.git
 cp gitlab.rb.sample gitlab.rb
 <edit gitlab.rb>
 <edit config.sh>
